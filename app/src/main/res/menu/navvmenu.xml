@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menuProfile"
+        android:title="@string/P"/>
+    <item
+        android:id="@+id/menuMemory4x4"
+        android:title="@string/Mry4"/>
+    <item
+        android:id="@+id/menuMemory6x6"
+        android:title="@string/Mry6"/>
+    <item
+        android:id="@+id/menuMemory8x8"
+        android:title="@string/Mry8"/>
+    <item
+        android:id="@+id/menuCalc"
+        android:title="@string/Clc"/>
+    <item
+        android:id="@+id/menuMusic"
+        android:title="@string/Mu"/>
+    <item
+        android:id="@+id/menuSSS"
+        android:title="@string/SSS"/>
+    <item
+        android:id="@+id/logOutNav"
+        android:title="@string/lgo"/>
+</menu>

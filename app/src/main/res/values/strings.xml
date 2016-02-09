@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Sloth Project</string>
+    <string name="openDrawer">Open Drawer</string>
+    <string name="closeDrawer">Close Drawer</string>
+    <string name="s">Yes</string>
+    <string name="n">No</string>
+    <string name="c">Cancel</string>
+    <string name="o">Ok</string>
+    <string name="P">Profile</string>
+    <string name="Mry4">Memory 4x4</string>
+    <string name="Mry6">Memory 6x6</string>
+    <string name="Mry8">Memory 8x8</string>
+    <string name="Clc">Calculator</string>
+    <string name="Mu">Music</string>
+    <string name="SSS">Super Secret Settings</string>
+    <string name="lb">Leaderboards</string>
+    <string name="edit_profile">EDIT PROFILE</string>
+    <string name="lgo">Log Out</string>
+    <string name="lgi">Log In</string>
+    <string name="sgu">Sign Up</string>
+    <string name="usr">Username</string>
+    <string name="name">Name</string>
+    <string name="address">Address</string>
+    <string name="punt">Pontuation</string>
+    <string name="confMsg">Would you like to save the changes?</string>
+    <string name="save">Save changes</string>
+    <string name="bstS4">Best score 4x4</string>
+    <string name="bstS6">Best score 6x6</string>
+    <string name="bstS8">Best score 8x8</string>
+</resources>

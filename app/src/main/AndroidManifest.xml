@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.felixarpa.proyectojedi">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.MANAGE_DOCUMENTS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/sloth_navv"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".UserSetUp.LogIn">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Tools.Calculadora" />
+        <activity android:name=".Tools.Memory4x4" />
+        <activity android:name=".Tools.Memory6x6" />
+        <activity android:name=".Tools.Memory8x8" />
+        <activity android:name=".Tools.SSS.SuperSecretSettings" />
+        <activity android:name=".Fragments.PagerHolder" />
+        <activity android:name=".UserSetUp.BecameSloth" />
+        <activity android:name=".UserSetUp.EditProfile" />
+        <activity android:name=".Tools.Music" />
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="86006eaacc94ddc3eb51228c3c1a45c5f5473d96" />
+    </application>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+</manifest>

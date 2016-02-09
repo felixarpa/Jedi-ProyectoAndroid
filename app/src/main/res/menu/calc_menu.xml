@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/calcCall"
+        android:title="Call"
+        android:icon="@drawable/phone"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/slothFly"
+        android:title="Sloth believes he can fly"
+        android:icon="@drawable/video"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/changeNotif"
+        android:title="Change math error warning"
+        app:showAsAction="never"/>
+
+</menu>
