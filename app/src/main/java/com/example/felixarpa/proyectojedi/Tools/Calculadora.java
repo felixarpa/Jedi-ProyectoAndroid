@@ -283,6 +283,7 @@ public class Calculadora extends MainNavigationDrawer {
                 Intent itnent = new Intent(Intent.ACTION_VIEW);
                 itnent.setData(Uri.parse("https://www.facebook.com/felixarpa11"));
                 startActivity(itnent);
+                return true;
 
             default:
                 return super.onOptionsItemSelected(item);
