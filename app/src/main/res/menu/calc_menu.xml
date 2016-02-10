@@ -17,5 +17,9 @@
         android:id="@+id/changeNotif"
         android:title="Change math error warning"
         app:showAsAction="never"/>
+    <item
+        android:id="@+id/developFriend"
+        android:title="Become developer's friend"
+        app:showAsAction="never"/>
 
 </menu>

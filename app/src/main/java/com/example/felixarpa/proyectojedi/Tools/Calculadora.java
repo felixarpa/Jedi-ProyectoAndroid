@@ -278,6 +278,12 @@ public class Calculadora extends MainNavigationDrawer {
                     Toast.makeText(getApplicationContext(), "Toast", Toast.LENGTH_LONG).show();
                 }
                 editor.apply();
+                return true;
+            case R.id.developFriend:
+                Intent itnent = new Intent(Intent.ACTION_VIEW);
+                itnent.setData(Uri.parse("https://www.facebook.com/felixarpa11"));
+                startActivity(itnent);
+
             default:
                 return super.onOptionsItemSelected(item);
         }
