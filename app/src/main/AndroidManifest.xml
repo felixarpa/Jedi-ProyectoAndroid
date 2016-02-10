@@ -28,7 +28,6 @@
         <activity android:name=".Tools.Memory4x4" />
         <activity android:name=".Tools.Memory6x6" />
         <activity android:name=".Tools.Memory8x8" />
-        <activity android:name=".Tools.SSS.SuperSecretSettings" />
         <activity android:name=".Fragments.PagerHolder" />
         <activity android:name=".UserSetUp.BecameSloth" />
         <activity android:name=".UserSetUp.EditProfile" />

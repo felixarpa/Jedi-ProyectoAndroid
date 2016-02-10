@@ -115,15 +115,6 @@ public class MainNavigationDrawer extends AppCompatActivity implements Navigatio
                 finish();
                 break;
 
-            case R.id.menuSSS:
-                if (!dondeEstoy.equals("SSS")) {
-                    dondeEstoy = "SSS";
-//                    startActivity(new Intent(getApplicationContext(), Memory4x4.class));
-//                    finish();
-                }
-
-                finish();
-                break;
             case R.id.logOutNav:
                 SharedPreferences.Editor editor = getSharedPreferences("SPSP", 0).edit();
                 editor.putBoolean("isLogedIn", false);
