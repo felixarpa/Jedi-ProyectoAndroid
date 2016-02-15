@@ -409,7 +409,7 @@ public class Memory6x6 extends MainNavigationDrawer {
             titl = "New Record!";
         }
         AlertDialog.Builder builder = new AlertDialog.Builder(Memory6x6.this);
-        builder.setMessage("You have won this game in " + intentosInt + " attampts");
+        builder.setMessage("You have won this game in " + intentosInt + " attempts");
         builder.setTitle(titl);
         builder.setNegativeButton("Try again", new DialogInterface.OnClickListener() {
             @Override
