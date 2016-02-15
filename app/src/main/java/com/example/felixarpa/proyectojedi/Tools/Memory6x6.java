@@ -8,6 +8,7 @@ import android.content.SharedPreferences;
 import android.graphics.drawable.Drawable;
 import android.os.AsyncTask;
 import android.os.Bundle;
+import android.support.v4.content.ContextCompat;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -287,24 +288,24 @@ public class Memory6x6 extends MainNavigationDrawer {
             case 2:
                 intentosTV.setText(Integer.toString(intentosInt));
 
-                drawables[0] = getDrawable(R.drawable.cat00);
-                drawables[1] = getDrawable(R.drawable.cat01);
-                drawables[2] = getDrawable(R.drawable.cat02);
-                drawables[3] = getDrawable(R.drawable.cat03);
-                drawables[4] = getDrawable(R.drawable.cat04);
-                drawables[5] = getDrawable(R.drawable.cat05);
-                drawables[6] = getDrawable(R.drawable.cat06);
-                drawables[7] = getDrawable(R.drawable.cat07);
-                drawables[8] = getDrawable(R.drawable.cat08);
-                drawables[9] = getDrawable(R.drawable.cat09);
-                drawables[10]= getDrawable(R.drawable.cat10);
-                drawables[11]= getDrawable(R.drawable.cat11);
-                drawables[12]= getDrawable(R.drawable.cat12);
-                drawables[13]= getDrawable(R.drawable.cat13);
-                drawables[14]= getDrawable(R.drawable.cat14);
-                drawables[15]= getDrawable(R.drawable.cat15);
-                drawables[16]= getDrawable(R.drawable.cat16);
-                drawables[17]= getDrawable(R.drawable.cat17);
+                drawables[0] = ContextCompat.getDrawable(getApplicationContext(), R.drawable.cat00);
+                drawables[1] = ContextCompat.getDrawable(getApplicationContext(), R.drawable.cat01);
+                drawables[2] = ContextCompat.getDrawable(getApplicationContext(), R.drawable.cat02);
+                drawables[3] = ContextCompat.getDrawable(getApplicationContext(), R.drawable.cat03);
+                drawables[4] = ContextCompat.getDrawable(getApplicationContext(), R.drawable.cat04);
+                drawables[5] = ContextCompat.getDrawable(getApplicationContext(), R.drawable.cat05);
+                drawables[6] = ContextCompat.getDrawable(getApplicationContext(), R.drawable.cat06);
+                drawables[7] = ContextCompat.getDrawable(getApplicationContext(), R.drawable.cat07);
+                drawables[8] = ContextCompat.getDrawable(getApplicationContext(), R.drawable.cat08);
+                drawables[9] = ContextCompat.getDrawable(getApplicationContext(), R.drawable.cat09);
+                drawables[10]= ContextCompat.getDrawable(getApplicationContext(), R.drawable.cat10);
+                drawables[11]= ContextCompat.getDrawable(getApplicationContext(), R.drawable.cat11);
+                drawables[12]= ContextCompat.getDrawable(getApplicationContext(), R.drawable.cat12);
+                drawables[13]= ContextCompat.getDrawable(getApplicationContext(), R.drawable.cat13);
+                drawables[14]= ContextCompat.getDrawable(getApplicationContext(), R.drawable.cat14);
+                drawables[15]= ContextCompat.getDrawable(getApplicationContext(), R.drawable.cat15);
+                drawables[16]= ContextCompat.getDrawable(getApplicationContext(), R.drawable.cat16);
+                drawables[17]= ContextCompat.getDrawable(getApplicationContext(), R.drawable.cat17);
                 break;
 
             case 3:
