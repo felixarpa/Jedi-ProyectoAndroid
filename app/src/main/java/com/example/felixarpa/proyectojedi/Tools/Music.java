@@ -24,6 +24,7 @@ public class Music extends MainNavigationDrawer {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.music_layout);
+
         buttonGetMusic = (Button) findViewById(R.id.getMusic);
         buttonDefaultMusic = (Button) findViewById(R.id.defaultMusic);
         buttonPlayPause = (ImageView) findViewById(R.id.playpause);

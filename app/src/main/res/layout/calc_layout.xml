@@ -65,12 +65,12 @@
             android:textSize="24dp" />
         <Button
             android:layout_margin="2px"
+            android:background="#b8b8b8"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:text="("
             android:id="@+id/aPar"
-            android:background="#b8b8b8"
             android:textSize="24dp" />
         <Button
             android:layout_margin="2px"
